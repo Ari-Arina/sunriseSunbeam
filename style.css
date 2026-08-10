@@ -1,0 +1,58 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(247, 240, 224);
+}
+
+h1, h2 {
+    color: #C54390; 
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+a, button {
+    background-color: #FFC7DA;
+    height: 40px;
+    color: #0E387A;
+    font-weight: 900;
+    padding: 7px 60px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.day-cards {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.day-description {
+    display: flex;
+    background-color: #FFFF;
+    border: solid #359BBF 3px;
+    padding: 8px;
+    margin: 20px;
+    gap: 20px;
+}
+
+img {
+    height: 600px;
+}
+
+footer,
+header {
+    display: flex;
+}

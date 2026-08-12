@@ -41,11 +41,29 @@ a, button {
     text-decoration: none;
 }
 
-main {
+main, 
+header {
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
+}
+
+header {
+    width: 100%;
+    background-image: url("./assets/OceanWave.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    background-image: url("./assets/SandBkg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
 }
 
 .day-cards {

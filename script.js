@@ -1,4 +1,4 @@
 
 function clickHello() {
-    alert("hello");
+    alert("And thus, we end our vacation :)");
 }
